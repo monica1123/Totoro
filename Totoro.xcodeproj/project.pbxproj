@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F0246D9262EADAB001261E5 /* MySparkParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6F0246D8262EADAB001261E5 /* MySparkParticle.sks */; };
+		6F0246DB262ED44A001261E5 /* totoro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F0246DA262ED44A001261E5 /* totoro.mp3 */; };
+		6F0246DD262ED627001261E5 /* op.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F0246DC262ED627001261E5 /* op.mp3 */; };
 		6F073ACE262DD6A000A07855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F073ACD262DD6A000A07855 /* AppDelegate.swift */; };
 		6F073AD0262DD6A000A07855 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F073ACF262DD6A000A07855 /* SceneDelegate.swift */; };
 		6F073AD2262DD6A000A07855 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F073AD1262DD6A000A07855 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F0246D8262EADAB001261E5 /* MySparkParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MySparkParticle.sks; sourceTree = "<group>"; };
+		6F0246DA262ED44A001261E5 /* totoro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = totoro.mp3; sourceTree = "<group>"; };
+		6F0246DC262ED627001261E5 /* op.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = op.mp3; sourceTree = "<group>"; };
 		6F073ACA262DD6A000A07855 /* Totoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Totoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F073ACD262DD6A000A07855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F073ACF262DD6A000A07855 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,10 +65,13 @@
 				6F073ACD262DD6A000A07855 /* AppDelegate.swift */,
 				6F073ACF262DD6A000A07855 /* SceneDelegate.swift */,
 				6F073AD1262DD6A000A07855 /* ViewController.swift */,
+				6F0246D8262EADAB001261E5 /* MySparkParticle.sks */,
 				6F073AD3262DD6A000A07855 /* Main.storyboard */,
 				6F073AD6262DD6A500A07855 /* Assets.xcassets */,
 				6F073AD8262DD6A500A07855 /* LaunchScreen.storyboard */,
 				6F073ADB262DD6A500A07855 /* Info.plist */,
+				6F0246DA262ED44A001261E5 /* totoro.mp3 */,
+				6F0246DC262ED627001261E5 /* op.mp3 */,
 			);
 			path = Totoro;
 			sourceTree = "<group>";
@@ -125,8 +134,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F073ADA262DD6A500A07855 /* LaunchScreen.storyboard in Resources */,
+				6F0246D9262EADAB001261E5 /* MySparkParticle.sks in Resources */,
 				6F073AD7262DD6A500A07855 /* Assets.xcassets in Resources */,
+				6F0246DD262ED627001261E5 /* op.mp3 in Resources */,
 				6F073AD5262DD6A000A07855 /* Main.storyboard in Resources */,
+				6F0246DB262ED44A001261E5 /* totoro.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
